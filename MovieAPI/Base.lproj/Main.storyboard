@@ -32,7 +32,7 @@
                                 <rect key="frame" x="0.0" y="131" width="414" height="731"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="173" id="HWK-Yj-uqQ" customClass="MovieCell" customModule="MovieAPI" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="173" id="HWK-Yj-uqQ">
                                         <rect key="frame" x="0.0" y="28" width="414" height="173"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HWK-Yj-uqQ" id="k6S-V4-a7l">
@@ -67,11 +67,6 @@
                                                 <constraint firstItem="6Nq-LL-hVF" firstAttribute="top" secondItem="Jnf-Tu-gCX" secondAttribute="bottom" constant="24" id="yXv-0f-4cZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="movieAudiLabel" destination="Jnf-Tu-gCX" id="rSe-xA-H0g"/>
-                                            <outlet property="movieSalesLabel" destination="6Nq-LL-hVF" id="PMd-pW-7Ot"/>
-                                            <outlet property="movieTItleLabel" destination="cHb-S0-f0J" id="wqu-nz-kfV"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
