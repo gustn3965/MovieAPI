@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController : UITableViewDelegate {
+extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         <#code#>
     }
@@ -27,7 +27,7 @@ extension ViewController : UITableViewDelegate {
     
 }
 
-extension ViewController : UITableViewDataSource{
+extension ViewController : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         <#code#>
     }
