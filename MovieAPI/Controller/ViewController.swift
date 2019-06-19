@@ -28,6 +28,12 @@ class ViewController: UIViewController , UITextFieldDelegate{
         let urlconfig = URLSessionConfiguration.default
         let session = URLSession(configuration: urlconfig)
         
+        
+//         54b9821695ed46aeb98df09fb70f4243 is key .
+//         it is got by http://www.kobis.or.kr/kobisopenapi/homepg/board/findTutorial.do
+//         You should sign up and login.
+//         Don't worry, about your privacy.
+//         It is easy to sign up
         var urlComponents = URLComponents(string: "http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=54b9821695ed46aeb98df09fb70f4243&")!
         var queryItem2 = URLQueryItem(name: "targetDt", value: date)
         urlComponents.queryItems?.append(queryItem2)
