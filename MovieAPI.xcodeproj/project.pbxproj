@@ -12,6 +12,8 @@
 		DB300BB222BA8A8C00E64EA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB300BB022BA8A8C00E64EA2 /* Main.storyboard */; };
 		DB300BB422BA8A8D00E64EA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB300BB322BA8A8D00E64EA2 /* Assets.xcassets */; };
 		DB300BB722BA8A8D00E64EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB300BB522BA8A8D00E64EA2 /* LaunchScreen.storyboard */; };
+		DB300BCD22BA998900E64EA2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BCC22BA998900E64EA2 /* Movie.swift */; };
+		DB300BD022BA99DB00E64EA2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BCF22BA99DB00E64EA2 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DB300BB322BA8A8D00E64EA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB300BB622BA8A8D00E64EA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB300BB822BA8A8D00E64EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB300BCC22BA998900E64EA2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DB300BCF22BA99DB00E64EA2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +59,39 @@
 			isa = PBXGroup;
 			children = (
 				DB300BAC22BA8A8C00E64EA2 /* AppDelegate.swift */,
-				DB300BAE22BA8A8C00E64EA2 /* ViewController.swift */,
+				DB300BCB22BA994600E64EA2 /* Controller */,
+				DB300BCA22BA993E00E64EA2 /* Model */,
+				DB300BCE22BA99AE00E64EA2 /* View */,
 				DB300BB022BA8A8C00E64EA2 /* Main.storyboard */,
 				DB300BB322BA8A8D00E64EA2 /* Assets.xcassets */,
 				DB300BB522BA8A8D00E64EA2 /* LaunchScreen.storyboard */,
 				DB300BB822BA8A8D00E64EA2 /* Info.plist */,
 			);
 			path = MovieAPI;
+			sourceTree = "<group>";
+		};
+		DB300BCA22BA993E00E64EA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB300BCC22BA998900E64EA2 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB300BCB22BA994600E64EA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB300BAE22BA8A8C00E64EA2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB300BCE22BA99AE00E64EA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB300BCF22BA99DB00E64EA2 /* MovieCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +167,8 @@
 			files = (
 				DB300BAF22BA8A8C00E64EA2 /* ViewController.swift in Sources */,
 				DB300BAD22BA8A8C00E64EA2 /* AppDelegate.swift in Sources */,
+				DB300BD022BA99DB00E64EA2 /* MovieCell.swift in Sources */,
+				DB300BCD22BA998900E64EA2 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
