@@ -21,9 +21,10 @@ class MovieCell: UITableViewCell {
         
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    func configure(movieList : MovieApi){
+        movieTItleLabel.text = "\(movieList.title)"
         
-        // Configure the view for the selected state
+        movieAudiLabel.text =  "\(movieList.audi) 명"
+        movieSalesLabel.text = "\(movieList.sales) 원"
     }
 }
