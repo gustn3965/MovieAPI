@@ -83,6 +83,16 @@ class ViewController: UIViewController , UITextFieldDelegate{
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            let vc = segue.destination as? DetailViewController
+            if let index = sender as? Int {
+                vc?.codeList = movieList[index].code
+            }
+            
+        }
+    }
+    
     
     @objc func doneClick(){
         queryDateLText.endEditing(true)
@@ -183,6 +193,10 @@ extension ViewController : UITableViewDataSource {
 }
 
 extension ViewController : UITableViewDelegate{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showDetail", sender: indexPath.row)
+        
+    }
     
 }
 

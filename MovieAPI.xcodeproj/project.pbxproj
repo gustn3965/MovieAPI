@@ -14,6 +14,8 @@
 		DB300BB722BA8A8D00E64EA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB300BB522BA8A8D00E64EA2 /* LaunchScreen.storyboard */; };
 		DB300BCD22BA998900E64EA2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BCC22BA998900E64EA2 /* Movie.swift */; };
 		DB300BD022BA99DB00E64EA2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BCF22BA99DB00E64EA2 /* MovieCell.swift */; };
+		DB300BD222BB5B1700E64EA2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BD122BB5B1700E64EA2 /* DetailViewController.swift */; };
+		DB300BD422BB5B3800E64EA2 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB300BD322BB5B3800E64EA2 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		DB300BB822BA8A8D00E64EA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB300BCC22BA998900E64EA2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		DB300BCF22BA99DB00E64EA2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		DB300BD122BB5B1700E64EA2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DB300BD322BB5B3800E64EA2 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				DB300BCC22BA998900E64EA2 /* Movie.swift */,
+				DB300BD322BB5B3800E64EA2 /* MovieDetail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				DB300BAE22BA8A8C00E64EA2 /* ViewController.swift */,
+				DB300BD122BB5B1700E64EA2 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +173,8 @@
 			files = (
 				DB300BAF22BA8A8C00E64EA2 /* ViewController.swift in Sources */,
 				DB300BAD22BA8A8C00E64EA2 /* AppDelegate.swift in Sources */,
+				DB300BD222BB5B1700E64EA2 /* DetailViewController.swift in Sources */,
+				DB300BD422BB5B3800E64EA2 /* MovieDetail.swift in Sources */,
 				DB300BD022BA99DB00E64EA2 /* MovieCell.swift in Sources */,
 				DB300BCD22BA998900E64EA2 /* Movie.swift in Sources */,
 			);
